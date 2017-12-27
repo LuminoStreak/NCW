@@ -1,0 +1,8 @@
+D:\VKDocs\LS\NCW\CoreDal\bin\Debug\netstandard2.0\CoreDal.deps.json
+D:\VKDocs\LS\NCW\CoreDal\bin\Debug\netstandard2.0\CoreDal.dll
+D:\VKDocs\LS\NCW\CoreDal\bin\Debug\netstandard2.0\CoreDal.pdb
+D:\VKDocs\LS\NCW\CoreDal\obj\Debug\netstandard2.0\CoreDal.csproj.CoreCompileInputs.cache
+D:\VKDocs\LS\NCW\CoreDal\obj\Debug\netstandard2.0\CoreDal.AssemblyInfoInputs.cache
+D:\VKDocs\LS\NCW\CoreDal\obj\Debug\netstandard2.0\CoreDal.AssemblyInfo.cs
+D:\VKDocs\LS\NCW\CoreDal\obj\Debug\netstandard2.0\CoreDal.dll
+D:\VKDocs\LS\NCW\CoreDal\obj\Debug\netstandard2.0\CoreDal.pdb
