@@ -8,3 +8,5 @@ D:\VKDocs\LS\NCW\NCWApi\obj\Debug\netcoreapp2.0\NCWApi.AssemblyInfoInputs.cache
 D:\VKDocs\LS\NCW\NCWApi\obj\Debug\netcoreapp2.0\NCWApi.AssemblyInfo.cs
 D:\VKDocs\LS\NCW\NCWApi\obj\Debug\netcoreapp2.0\NCWApi.dll
 D:\VKDocs\LS\NCW\NCWApi\obj\Debug\netcoreapp2.0\NCWApi.pdb
+D:\VKDocs\LS\NCW\NCWApi\bin\Debug\netcoreapp2.0\CoreDal.dll
+D:\VKDocs\LS\NCW\NCWApi\bin\Debug\netcoreapp2.0\CoreDal.pdb

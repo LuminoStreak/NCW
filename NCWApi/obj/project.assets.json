@@ -4746,6 +4746,16 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "CoreDal/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CoreDal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreDal.dll": {}
+        }
       }
     }
   },
@@ -12525,10 +12535,16 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "CoreDal/1.0.0": {
+      "type": "project",
+      "path": "../CoreDal/CoreDal.csproj",
+      "msbuildProject": "../CoreDal/CoreDal.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "CoreDal >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12567,7 +12583,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj": {
+              "projectPath": "D:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
