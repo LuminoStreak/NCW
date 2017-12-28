@@ -4751,7 +4751,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.1"
         },
         "compile": {
           "bin/placeholder/CoreDal.dll": {}

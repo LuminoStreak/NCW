@@ -3797,7 +3797,8 @@
       },
       "CoreDal/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.1"
         },
         "runtime": {
           "CoreDal.dll": {}
