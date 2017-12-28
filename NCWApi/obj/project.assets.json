@@ -4750,6 +4750,9 @@
       "CoreDal/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1"
+        },
         "compile": {
           "bin/placeholder/CoreDal.dll": {}
         },
@@ -12577,8 +12580,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "\\\\OTBAPSRV\\NugetFeed": {},
         "https://api.nuget.org/v3/index.json": {},
+        "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {},
         "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {

@@ -1,0 +1,12 @@
+D:\VKDocs\LS\NCW\CoreWeb\bin\Debug\netcoreapp2.0\CoreWeb.deps.json
+D:\VKDocs\LS\NCW\CoreWeb\bin\Debug\netcoreapp2.0\CoreWeb.runtimeconfig.json
+D:\VKDocs\LS\NCW\CoreWeb\bin\Debug\netcoreapp2.0\CoreWeb.runtimeconfig.dev.json
+D:\VKDocs\LS\NCW\CoreWeb\bin\Debug\netcoreapp2.0\CoreWeb.dll
+D:\VKDocs\LS\NCW\CoreWeb\bin\Debug\netcoreapp2.0\CoreWeb.pdb
+D:\VKDocs\LS\NCW\CoreWeb\bin\Debug\netcoreapp2.0\CoreDal.dll
+D:\VKDocs\LS\NCW\CoreWeb\bin\Debug\netcoreapp2.0\CoreDal.pdb
+D:\VKDocs\LS\NCW\CoreWeb\obj\Debug\netcoreapp2.0\CoreWeb.csproj.CoreCompileInputs.cache
+D:\VKDocs\LS\NCW\CoreWeb\obj\Debug\netcoreapp2.0\CoreWeb.AssemblyInfoInputs.cache
+D:\VKDocs\LS\NCW\CoreWeb\obj\Debug\netcoreapp2.0\CoreWeb.AssemblyInfo.cs
+D:\VKDocs\LS\NCW\CoreWeb\obj\Debug\netcoreapp2.0\CoreWeb.dll
+D:\VKDocs\LS\NCW\CoreWeb\obj\Debug\netcoreapp2.0\CoreWeb.pdb
