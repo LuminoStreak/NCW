@@ -1,0 +1,17 @@
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\CoreWebTest.deps.json
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\CoreWebTest.runtimeconfig.json
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\CoreWebTest.runtimeconfig.dev.json
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\CoreWebTest.dll
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\CoreWebTest.pdb
+D:\VKDocs\LS\NCW\CoreWebTest\obj\Debug\netcoreapp2.0\CoreWebTest.csproj.CoreCompileInputs.cache
+D:\VKDocs\LS\NCW\CoreWebTest\obj\Debug\netcoreapp2.0\CoreWebTest.AssemblyInfoInputs.cache
+D:\VKDocs\LS\NCW\CoreWebTest\obj\Debug\netcoreapp2.0\CoreWebTest.AssemblyInfo.cs
+D:\VKDocs\LS\NCW\CoreWebTest\obj\Debug\netcoreapp2.0\CoreWebTest.dll
+D:\VKDocs\LS\NCW\CoreWebTest\obj\Debug\netcoreapp2.0\CoreWebTest.pdb
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\CoreDal.dll
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\CoreWeb.dll
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\CoreWeb.pdb
+D:\VKDocs\LS\NCW\CoreWebTest\bin\Debug\netcoreapp2.0\CoreDal.pdb

@@ -1,6 +1,8 @@
-namespace CoreDal 
+using CoreDal;
+
+namespace EntityModel 
 {  
-    public class SampleEntity : BaseEntity  
+    public class SampleEntityA : BaseEntity, IEntity  
     {  
         public string FirstName { get; set; }  
         public string LastName { get; set; }  
