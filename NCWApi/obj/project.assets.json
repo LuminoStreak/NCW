@@ -4749,10 +4749,14 @@
       },
       "CoreDal/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.1",
+          "Microsoft.EntityFrameworkCore.Design": "2.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
-          "Microsoft.EntityFrameworkCore.Tools": "2.0.1"
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.1",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.0.0",
+          "Microsoft.Extensions.Configuration.Json": "2.0.0"
         },
         "compile": {
           "bin/placeholder/CoreDal.dll": {}
@@ -12561,11 +12565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VKDocs\\LS\\NCW\\NCWApi\\NCWApi.csproj",
+      "projectUniqueName": "d:\\VKDocs\\LS\\NCW\\NCWApi\\NCWApi.csproj",
       "projectName": "NCWApi",
-      "projectPath": "D:\\VKDocs\\LS\\NCW\\NCWApi\\NCWApi.csproj",
+      "projectPath": "d:\\VKDocs\\LS\\NCW\\NCWApi\\NCWApi.csproj",
       "packagesPath": "C:\\Users\\vikneshraj.p\\.nuget\\packages\\",
-      "outputPath": "D:\\VKDocs\\LS\\NCW\\NCWApi\\obj\\",
+      "outputPath": "d:\\VKDocs\\LS\\NCW\\NCWApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -12588,8 +12592,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj": {
-              "projectPath": "D:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj"
+            "d:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj": {
+              "projectPath": "d:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj"
             }
           }
         }

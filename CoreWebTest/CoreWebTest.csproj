@@ -17,4 +17,10 @@
     <ProjectReference Include="..\CoreDal\CoreDal.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="appsettings.json;web.config">
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>  
+
 </Project>
