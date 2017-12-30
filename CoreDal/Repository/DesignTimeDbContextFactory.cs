@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace CoreDal
+namespace CoreDal.Repository
 {
     public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<CoreDataContext>
     {

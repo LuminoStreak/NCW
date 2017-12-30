@@ -5079,11 +5079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj",
+      "projectUniqueName": "D:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj",
       "projectName": "CoreDal",
-      "projectPath": "d:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj",
+      "projectPath": "D:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj",
       "packagesPath": "C:\\Users\\vikneshraj.p\\.nuget\\packages\\",
-      "outputPath": "d:\\VKDocs\\LS\\NCW\\CoreDal\\obj\\",
+      "outputPath": "D:\\VKDocs\\LS\\NCW\\CoreDal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

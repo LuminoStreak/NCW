@@ -1,11 +1,11 @@
-using CoreDal;
+using Core.EntityMetaModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EntityModel 
 {  
     [Table("User")]
-    public class User : BaseEntity, IEntity  
+    public class User : AuditableEntity  
     {   
         [Required]       
         public string FirstName { get; set; }  
@@ -19,7 +19,7 @@ namespace EntityModel
     }
 
     [Table("UserDepartment")]
-    public class UserDepartment: BaseEntity, IEntity  
+    public class UserDepartment: AuditableEntity  
     {
         public int DeptNo { get; set; }
         [Required]

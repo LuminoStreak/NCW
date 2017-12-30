@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;  
   
-namespace CoreDal
+namespace CoreDal.Repository
 {  
     public class CoreDataContext:DbContext  
     {  
@@ -12,8 +12,6 @@ namespace CoreDal
             
         }  
         
-        public DbSet<User> Users { get; set; }
-        public DbSet<UserDepartment> UserDepartments { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)  
         {  
             base.OnModelCreating(modelBuilder);  

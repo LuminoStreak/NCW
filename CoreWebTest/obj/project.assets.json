@@ -13672,11 +13672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\VKDocs\\LS\\NCW\\CoreWebTest\\CoreWebTest.csproj",
+      "projectUniqueName": "D:\\VKDocs\\LS\\NCW\\CoreWebTest\\CoreWebTest.csproj",
       "projectName": "CoreWebTest",
-      "projectPath": "d:\\VKDocs\\LS\\NCW\\CoreWebTest\\CoreWebTest.csproj",
+      "projectPath": "D:\\VKDocs\\LS\\NCW\\CoreWebTest\\CoreWebTest.csproj",
       "packagesPath": "C:\\Users\\vikneshraj.p\\.nuget\\packages\\",
-      "outputPath": "d:\\VKDocs\\LS\\NCW\\CoreWebTest\\obj\\",
+      "outputPath": "D:\\VKDocs\\LS\\NCW\\CoreWebTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -13699,11 +13699,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "d:\\VKDocs\\LS\\NCW\\CoreWeb\\CoreWeb.csproj": {
-              "projectPath": "d:\\VKDocs\\LS\\NCW\\CoreWeb\\CoreWeb.csproj"
+            "D:\\VKDocs\\LS\\NCW\\CoreWeb\\CoreWeb.csproj": {
+              "projectPath": "D:\\VKDocs\\LS\\NCW\\CoreWeb\\CoreWeb.csproj"
             },
-            "d:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj": {
-              "projectPath": "d:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj"
+            "D:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj": {
+              "projectPath": "D:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj"
             }
           }
         }

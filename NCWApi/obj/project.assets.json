@@ -12565,11 +12565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\VKDocs\\LS\\NCW\\NCWApi\\NCWApi.csproj",
+      "projectUniqueName": "D:\\VKDocs\\LS\\NCW\\NCWApi\\NCWApi.csproj",
       "projectName": "NCWApi",
-      "projectPath": "d:\\VKDocs\\LS\\NCW\\NCWApi\\NCWApi.csproj",
+      "projectPath": "D:\\VKDocs\\LS\\NCW\\NCWApi\\NCWApi.csproj",
       "packagesPath": "C:\\Users\\vikneshraj.p\\.nuget\\packages\\",
-      "outputPath": "d:\\VKDocs\\LS\\NCW\\NCWApi\\obj\\",
+      "outputPath": "D:\\VKDocs\\LS\\NCW\\NCWApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -12592,8 +12592,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "d:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj": {
-              "projectPath": "d:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj"
+            "D:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj": {
+              "projectPath": "D:\\VKDocs\\LS\\NCW\\CoreDal\\CoreDal.csproj"
             }
           }
         }

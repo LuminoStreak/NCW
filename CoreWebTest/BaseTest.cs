@@ -1,7 +1,7 @@
 using System.IO;
-using CoreDal;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using CoreDal.Repository;
 
 namespace CoreWebTest
 {
