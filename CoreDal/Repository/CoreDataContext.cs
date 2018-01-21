@@ -2,10 +2,11 @@ using System;
 using System.Linq;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;  
-  
+using Core.EntityMetaModel;
+
 namespace CoreDal.Repository
 {  
-    public class CoreDataContext:DbContext  
+    public class CoreDataContext: DbContext  
     {  
         public CoreDataContext(DbContextOptions<CoreDataContext> options) : base(options)  
         {  
@@ -15,15 +16,34 @@ namespace CoreDal.Repository
         protected override void OnModelCreating(ModelBuilder modelBuilder)  
         {  
             base.OnModelCreating(modelBuilder);  
-            // Type[] typesToRegister = Assembly.GetExecutingAssembly().GetTypes()
-            // .Where(type => !String.IsNullOrEmpty(type.Namespace))
-            // .Where(type => type.BaseType != null && type.BaseType.IsGenericType && type.BaseType.GetGenericTypeDefinition() == typeof(EntityTypeConfiguration<>));
-            // foreach (var type in typesToRegister)
-            // {                
-            //     dynamic configurationInstance = Activator.CreateInstance(type);
-            //     // modelBuilder.ApplyConfiguration.Add(configurationInstance);
-            // }
-            // new BaseEntityModelMap(modelBuilder);  
+        }
+
+        public override int SaveChanges()
+        {
+            var modifiedEntries = ChangeTracker.Entries()
+                .Where(x => x.Entity is IAuditableEntity
+                  && (x.State == EntityState.Added || x.State == EntityState.Modified));
+ 
+            foreach (var entry in modifiedEntries)
+            {
+                IAuditableEntity entity = entry.Entity as IAuditableEntity;
+                if (entity != null)
+                {                    
+                    DateTime now = DateTime.UtcNow;
+ 
+                    if (entry.State == EntityState.Added)
+                    {                
+                        entity.CreatedDate = now;
+                    }
+                    else 
+                    {                      
+                        base.Entry(entity).Property(x => x.CreatedDate).IsModified = false;                   
+                    }
+ 
+                    entity.UpdatedDate = now;
+                }
+            } 
+            return base.SaveChanges();
         }          
 
     }  

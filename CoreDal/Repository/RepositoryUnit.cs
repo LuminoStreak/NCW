@@ -17,8 +17,8 @@ namespace CoreDal.Repository
             _dbContext = dbContext;
         }
 
-         public IRepository<TEntity> Repository<TEntity>() where TEntity : BaseEntity
-        {
+        public IRepository<TEntity> Repository<TEntity>() where TEntity : BaseEntity
+        {            
             if (repositories.Keys.Contains(typeof(TEntity)) == true)
             {
                 return repositories[typeof(TEntity)] as IRepository<TEntity>;

@@ -2,7 +2,7 @@ using System;
 
 namespace Core.EntityMetaModel
 {
-    public abstract class AuditableEntity : Entity, IAuditableEntity
+    public abstract class AuditableEntity : BaseEntity, IAuditableEntity
     {       
         public DateTime CreatedDate { get; set; }
      
