@@ -28,7 +28,7 @@ namespace NCWApi
         {
             services.AddMvc();
             services.AddDbContext<CoreDataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));            
             // services.AddTransient<IUserService, UserService();
         }
 

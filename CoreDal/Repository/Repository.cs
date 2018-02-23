@@ -5,14 +5,14 @@ using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Core.EntityMetaModel;
 
-namespace CoreDal.Repository 
+namespace CoreDal.Repository
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
+    public abstract class AbstractRepository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
     {
         private DbContext context;
         private DbSet<TEntity> _dbSet;
     
-        public Repository(DbContext context)
+        public AbstractRepository(DbContext context)
         {
             this.context = context;
             this._dbSet = context.Set<TEntity>();
@@ -97,5 +97,13 @@ namespace CoreDal.Repository
             }
             _dbSet.Remove(entityToDelete);
         }
-    }  
+    }
+
+    public partial class Repository<TEntity> : AbstractRepository<TEntity> where TEntity : BaseEntity
+    {
+        public Repository(DbContext context) : base(context)
+        {            
+
+        }
+    }
 }
